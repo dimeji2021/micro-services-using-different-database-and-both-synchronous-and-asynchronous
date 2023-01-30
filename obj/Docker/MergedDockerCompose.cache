@@ -1,5 +1,48 @@
 name: dockercompose5184805688856964894
 services:
+  basket.api:
+    build:
+      context: C:\Users\Kehinde Aregbesola\Desktop\microservice version two\src
+      dockerfile: Basket.API/Dockerfile
+    container_name: basket.api
+    depends_on:
+      basketdb:
+        condition: service_started
+    environment:
+      ASPNETCORE_ENVIRONMENT: Development
+      CacheSettings:ConnectionString: basketdb:6379
+    image: basketapi
+    networks:
+      default: null
+    ports:
+    - mode: ingress
+      target: 80
+      published: "8003"
+      protocol: tcp
+    volumes:
+    - type: bind
+      source: C:\Users\Kehinde Aregbesola\AppData\Roaming/Microsoft/UserSecrets
+      target: /root/.microsoft/usersecrets
+      read_only: true
+      bind:
+        create_host_path: true
+    - type: bind
+      source: C:\Users\Kehinde Aregbesola\AppData\Roaming/ASP.NET/Https
+      target: /root/.aspnet/https
+      read_only: true
+      bind:
+        create_host_path: true
+  basketdb:
+    container_name: basketdb
+    image: redis:alpine
+    networks:
+      default: null
+    ports:
+    - mode: ingress
+      target: 6379
+      published: "6379"
+      protocol: tcp
+    restart: always
   catalog.api:
     build:
       context: C:\Users\Kehinde Aregbesola\Desktop\microservice version two\src
@@ -17,10 +60,6 @@ services:
     ports:
     - mode: ingress
       target: 80
-      published: "8000"
-      protocol: tcp
-    - mode: ingress
-      target: 443
       published: "8001"
       protocol: tcp
     volumes:
