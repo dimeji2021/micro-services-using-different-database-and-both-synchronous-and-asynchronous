@@ -2,7 +2,6 @@ using Catalog.API.Data;
 using Catalog.API.Repositories;
 
 var builder = WebApplication.CreateBuilder(args);
-var configValue = builder.Configuration.GetSection("AllowedOrigin").Get<string>();
 
 // Add services to the container.
 
@@ -22,13 +21,6 @@ if (app.Environment.IsDevelopment())
 {
     app.UseSwagger();
     app.UseSwaggerUI(c => c.SwaggerEndpoint("/swagger/v1/swagger.json", "Catalog.API v1"));
-    app.UseCors(builder =>
-    {
-        builder.WithOrigins(configValue) // To allow the origin specified in this appsettings.development, can either take in a string or an array of strings
-        .AllowAnyHeader()
-        .AllowAnyMethod();
-    });
-
 }
 
 app.UseHttpsRedirection();
