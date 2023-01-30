@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "jKLcqDtEpW3fh2tk23eqlidz/N0wyDOKZ1+KcGIUS1iHviA0dVafRoRmalDSPCqisP53A7xBkuaA4VaP9ogaOw==",
+  "dgSpecHash": "f3E1xv0BDzreatuB9qL2HQ0ihP/2kpXErUyl63Kry152zZML+xXaqkdZH9fkbgLOGtrAGbd/8Fv4wNcaqSy7og==",
   "success": true,
   "projectFilePath": "C:\\Users\\Kehinde Aregbesola\\Desktop\\microservice version two\\src\\Catalog.API\\Catalog.API.csproj",
   "expectedPackageFiles": [
@@ -11,6 +11,7 @@
     "C:\\Users\\Kehinde Aregbesola\\.nuget\\packages\\microsoft.extensions.logging.abstractions\\2.0.0\\microsoft.extensions.logging.abstractions.2.0.0.nupkg.sha512",
     "C:\\Users\\Kehinde Aregbesola\\.nuget\\packages\\microsoft.netcore.platforms\\5.0.0\\microsoft.netcore.platforms.5.0.0.nupkg.sha512",
     "C:\\Users\\Kehinde Aregbesola\\.nuget\\packages\\microsoft.openapi\\1.2.3\\microsoft.openapi.1.2.3.nupkg.sha512",
+    "C:\\Users\\Kehinde Aregbesola\\.nuget\\packages\\microsoft.visualstudio.azure.containers.tools.targets\\1.17.0\\microsoft.visualstudio.azure.containers.tools.targets.1.17.0.nupkg.sha512",
     "C:\\Users\\Kehinde Aregbesola\\.nuget\\packages\\microsoft.win32.registry\\5.0.0\\microsoft.win32.registry.5.0.0.nupkg.sha512",
     "C:\\Users\\Kehinde Aregbesola\\.nuget\\packages\\mongodb.bson\\2.19.0\\mongodb.bson.2.19.0.nupkg.sha512",
     "C:\\Users\\Kehinde Aregbesola\\.nuget\\packages\\mongodb.driver\\2.19.0\\mongodb.driver.2.19.0.nupkg.sha512",
