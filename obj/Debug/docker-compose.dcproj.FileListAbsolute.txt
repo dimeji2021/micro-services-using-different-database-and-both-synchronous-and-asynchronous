@@ -31,3 +31,10 @@ C:\Users\Kehinde Aregbesola\Desktop\microservice version two\src\bin\Debug\Catal
 C:\Users\Kehinde Aregbesola\Desktop\microservice version two\src\bin\Debug\Basket.API.pdb
 C:\Users\Kehinde Aregbesola\Desktop\microservice version two\src\obj\Debug\docker-compose.dcproj.AssemblyReference.cache
 C:\Users\Kehinde Aregbesola\Desktop\microservice version two\src\obj\Debug\docker-compose.dcproj.CopyComplete
+C:\Users\Kehinde Aregbesola\Desktop\microservice version two\src\bin\Debug\Discount.API.dll
+C:\Users\Kehinde Aregbesola\Desktop\microservice version two\src\bin\Debug\Discount.API.deps.json
+C:\Users\Kehinde Aregbesola\Desktop\microservice version two\src\bin\Debug\Discount.API.runtimeconfig.json
+C:\Users\Kehinde Aregbesola\Desktop\microservice version two\src\bin\Debug\Discount.API.exe
+C:\Users\Kehinde Aregbesola\Desktop\microservice version two\src\bin\Debug\Npgsql.dll
+C:\Users\Kehinde Aregbesola\Desktop\microservice version two\src\bin\Debug\Dapper.dll
+C:\Users\Kehinde Aregbesola\Desktop\microservice version two\src\bin\Debug\Discount.API.pdb
