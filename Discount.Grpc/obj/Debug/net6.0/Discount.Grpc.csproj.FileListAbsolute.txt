@@ -32,3 +32,8 @@ C:\Users\Kehinde Aregbesola\Desktop\microservice version two\src\Discount.Grpc\o
 C:\Users\Kehinde Aregbesola\Desktop\microservice version two\src\Discount.Grpc\obj\Debug\net6.0\Discount.Grpc.pdb
 C:\Users\Kehinde Aregbesola\Desktop\microservice version two\src\Discount.Grpc\obj\Debug\net6.0\Discount.Grpc.genruntimeconfig.cache
 C:\Users\Kehinde Aregbesola\Desktop\microservice version two\src\Discount.Grpc\obj\Debug\net6.0\ref\Discount.Grpc.dll
+C:\Users\Kehinde Aregbesola\Desktop\microservice version two\src\Discount.Grpc\bin\Debug\net6.0\libman.json
+C:\Users\Kehinde Aregbesola\Desktop\microservice version two\src\Discount.Grpc\bin\Debug\net6.0\Dapper.dll
+C:\Users\Kehinde Aregbesola\Desktop\microservice version two\src\Discount.Grpc\bin\Debug\net6.0\Npgsql.dll
+C:\Users\Kehinde Aregbesola\Desktop\microservice version two\src\Discount.Grpc\bin\Debug\net6.0\AutoMapper.dll
+C:\Users\Kehinde Aregbesola\Desktop\microservice version two\src\Discount.Grpc\bin\Debug\net6.0\AutoMapper.Extensions.Microsoft.DependencyInjection.dll

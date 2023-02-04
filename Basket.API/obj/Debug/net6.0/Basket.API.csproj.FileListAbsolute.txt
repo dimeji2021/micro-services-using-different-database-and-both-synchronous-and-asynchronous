@@ -47,3 +47,10 @@ C:\Users\Kehinde Aregbesola\Desktop\microservice version two\src\Basket.API\obj\
 C:\Users\Kehinde Aregbesola\Desktop\microservice version two\src\Basket.API\obj\Debug\net6.0\Basket.API.pdb
 C:\Users\Kehinde Aregbesola\Desktop\microservice version two\src\Basket.API\obj\Debug\net6.0\Basket.API.genruntimeconfig.cache
 C:\Users\Kehinde Aregbesola\Desktop\microservice version two\src\Basket.API\obj\Debug\net6.0\ref\Basket.API.dll
+C:\Users\Kehinde Aregbesola\Desktop\microservice version two\src\Basket.API\bin\Debug\net6.0\Google.Protobuf.dll
+C:\Users\Kehinde Aregbesola\Desktop\microservice version two\src\Basket.API\bin\Debug\net6.0\Grpc.AspNetCore.Server.dll
+C:\Users\Kehinde Aregbesola\Desktop\microservice version two\src\Basket.API\bin\Debug\net6.0\Grpc.AspNetCore.Server.ClientFactory.dll
+C:\Users\Kehinde Aregbesola\Desktop\microservice version two\src\Basket.API\bin\Debug\net6.0\Grpc.Core.Api.dll
+C:\Users\Kehinde Aregbesola\Desktop\microservice version two\src\Basket.API\bin\Debug\net6.0\Grpc.Net.Client.dll
+C:\Users\Kehinde Aregbesola\Desktop\microservice version two\src\Basket.API\bin\Debug\net6.0\Grpc.Net.ClientFactory.dll
+C:\Users\Kehinde Aregbesola\Desktop\microservice version two\src\Basket.API\bin\Debug\net6.0\Grpc.Net.Common.dll
