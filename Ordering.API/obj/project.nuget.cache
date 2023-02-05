@@ -1,0 +1,15 @@
+{
+  "version": 2,
+  "dgSpecHash": "C9evwMVDawdmArmMZD8/Z3B5TEsZg0IGuaTYm4NzHF5jWNizzDycTP2axN2KV3UgVDb8e3cBMAGP3QohU6atAw==",
+  "success": true,
+  "projectFilePath": "C:\\Users\\Kehinde Aregbesola\\Desktop\\microservice version two\\src\\Ordering.API\\Ordering.API.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\Kehinde Aregbesola\\.nuget\\packages\\microsoft.extensions.apidescription.server\\3.0.0\\microsoft.extensions.apidescription.server.3.0.0.nupkg.sha512",
+    "C:\\Users\\Kehinde Aregbesola\\.nuget\\packages\\microsoft.openapi\\1.2.3\\microsoft.openapi.1.2.3.nupkg.sha512",
+    "C:\\Users\\Kehinde Aregbesola\\.nuget\\packages\\swashbuckle.aspnetcore\\6.2.3\\swashbuckle.aspnetcore.6.2.3.nupkg.sha512",
+    "C:\\Users\\Kehinde Aregbesola\\.nuget\\packages\\swashbuckle.aspnetcore.swagger\\6.2.3\\swashbuckle.aspnetcore.swagger.6.2.3.nupkg.sha512",
+    "C:\\Users\\Kehinde Aregbesola\\.nuget\\packages\\swashbuckle.aspnetcore.swaggergen\\6.2.3\\swashbuckle.aspnetcore.swaggergen.6.2.3.nupkg.sha512",
+    "C:\\Users\\Kehinde Aregbesola\\.nuget\\packages\\swashbuckle.aspnetcore.swaggerui\\6.2.3\\swashbuckle.aspnetcore.swaggerui.6.2.3.nupkg.sha512"
+  ],
+  "logs": []
+}

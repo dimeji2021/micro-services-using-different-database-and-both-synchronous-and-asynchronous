@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "MBhSHgvZcHfWHDQOBum7zBiPoZd3Tb2161ADA1jeNtgfy7o3Q7lLUA+5uEld7H/tqI3e0Bg4PaBvxTKK9yUqLA==",
+  "dgSpecHash": "taOeRPn6RUQKuOUxqUog/uGnLogy7KVf3rY8L1guy4FeA89j6AY2LJL/jKsATYQ3fz2yxoAOdiN8An6r+zr6sA==",
   "success": true,
   "projectFilePath": "C:\\Users\\Kehinde Aregbesola\\Desktop\\microservice version two\\src\\Discount.Grpc\\Discount.Grpc.csproj",
   "expectedPackageFiles": [
@@ -27,6 +27,7 @@
     "C:\\Users\\Kehinde Aregbesola\\.nuget\\packages\\microsoft.extensions.logging.abstractions\\3.0.3\\microsoft.extensions.logging.abstractions.3.0.3.nupkg.sha512",
     "C:\\Users\\Kehinde Aregbesola\\.nuget\\packages\\microsoft.extensions.options\\6.0.0\\microsoft.extensions.options.6.0.0.nupkg.sha512",
     "C:\\Users\\Kehinde Aregbesola\\.nuget\\packages\\microsoft.extensions.primitives\\6.0.0\\microsoft.extensions.primitives.6.0.0.nupkg.sha512",
+    "C:\\Users\\Kehinde Aregbesola\\.nuget\\packages\\microsoft.visualstudio.azure.containers.tools.targets\\1.17.0\\microsoft.visualstudio.azure.containers.tools.targets.1.17.0.nupkg.sha512",
     "C:\\Users\\Kehinde Aregbesola\\.nuget\\packages\\npgsql\\6.0.8\\npgsql.6.0.8.nupkg.sha512",
     "C:\\Users\\Kehinde Aregbesola\\.nuget\\packages\\system.memory\\4.5.3\\system.memory.4.5.3.nupkg.sha512",
     "C:\\Users\\Kehinde Aregbesola\\.nuget\\packages\\system.runtime.compilerservices.unsafe\\6.0.0\\system.runtime.compilerservices.unsafe.6.0.0.nupkg.sha512"

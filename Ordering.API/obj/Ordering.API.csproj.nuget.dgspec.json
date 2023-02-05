@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\Kehinde Aregbesola\\Desktop\\microservice version two\\src\\Discount.Grpc\\Discount.Grpc.csproj": {}
+    "C:\\Users\\Kehinde Aregbesola\\Desktop\\microservice version two\\src\\Ordering.API\\Ordering.API.csproj": {}
   },
   "projects": {
-    "C:\\Users\\Kehinde Aregbesola\\Desktop\\microservice version two\\src\\Discount.Grpc\\Discount.Grpc.csproj": {
+    "C:\\Users\\Kehinde Aregbesola\\Desktop\\microservice version two\\src\\Ordering.API\\Ordering.API.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Kehinde Aregbesola\\Desktop\\microservice version two\\src\\Discount.Grpc\\Discount.Grpc.csproj",
-        "projectName": "Discount.Grpc",
-        "projectPath": "C:\\Users\\Kehinde Aregbesola\\Desktop\\microservice version two\\src\\Discount.Grpc\\Discount.Grpc.csproj",
+        "projectUniqueName": "C:\\Users\\Kehinde Aregbesola\\Desktop\\microservice version two\\src\\Ordering.API\\Ordering.API.csproj",
+        "projectName": "Ordering.API",
+        "projectPath": "C:\\Users\\Kehinde Aregbesola\\Desktop\\microservice version two\\src\\Ordering.API\\Ordering.API.csproj",
         "packagesPath": "C:\\Users\\Kehinde Aregbesola\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Kehinde Aregbesola\\Desktop\\microservice version two\\src\\Discount.Grpc\\obj\\",
+        "outputPath": "C:\\Users\\Kehinde Aregbesola\\Desktop\\microservice version two\\src\\Ordering.API\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\Kehinde Aregbesola\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -41,25 +41,9 @@
         "net6.0": {
           "targetAlias": "net6.0",
           "dependencies": {
-            "AutoMapper.Extensions.Microsoft.DependencyInjection": {
+            "Swashbuckle.AspNetCore": {
               "target": "Package",
-              "version": "[12.0.0, )"
-            },
-            "Dapper": {
-              "target": "Package",
-              "version": "[2.0.123, )"
-            },
-            "Grpc.AspNetCore": {
-              "target": "Package",
-              "version": "[2.51.0, )"
-            },
-            "Microsoft.VisualStudio.Azure.Containers.Tools.Targets": {
-              "target": "Package",
-              "version": "[1.17.0, )"
-            },
-            "Npgsql": {
-              "target": "Package",
-              "version": "[6.0.8, )"
+              "version": "[6.2.3, )"
             }
           },
           "imports": [
