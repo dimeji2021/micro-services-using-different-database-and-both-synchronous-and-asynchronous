@@ -38,3 +38,17 @@ C:\Users\Kehinde Aregbesola\Desktop\microservice version two\src\bin\Debug\Disco
 C:\Users\Kehinde Aregbesola\Desktop\microservice version two\src\bin\Debug\Npgsql.dll
 C:\Users\Kehinde Aregbesola\Desktop\microservice version two\src\bin\Debug\Dapper.dll
 C:\Users\Kehinde Aregbesola\Desktop\microservice version two\src\bin\Debug\Discount.API.pdb
+C:\Users\Kehinde Aregbesola\Desktop\microservice version two\src\bin\Debug\Discount.Grpc.deps.json
+C:\Users\Kehinde Aregbesola\Desktop\microservice version two\src\bin\Debug\Discount.Grpc.runtimeconfig.json
+C:\Users\Kehinde Aregbesola\Desktop\microservice version two\src\bin\Debug\libman.json
+C:\Users\Kehinde Aregbesola\Desktop\microservice version two\src\bin\Debug\Discount.Grpc.exe
+C:\Users\Kehinde Aregbesola\Desktop\microservice version two\src\bin\Debug\Discount.Grpc.dll
+C:\Users\Kehinde Aregbesola\Desktop\microservice version two\src\bin\Debug\Grpc.Net.ClientFactory.dll
+C:\Users\Kehinde Aregbesola\Desktop\microservice version two\src\bin\Debug\Google.Protobuf.dll
+C:\Users\Kehinde Aregbesola\Desktop\microservice version two\src\bin\Debug\Grpc.Core.Api.dll
+C:\Users\Kehinde Aregbesola\Desktop\microservice version two\src\bin\Debug\AutoMapper.dll
+C:\Users\Kehinde Aregbesola\Desktop\microservice version two\src\bin\Debug\Grpc.AspNetCore.Server.dll
+C:\Users\Kehinde Aregbesola\Desktop\microservice version two\src\bin\Debug\AutoMapper.Extensions.Microsoft.DependencyInjection.dll
+C:\Users\Kehinde Aregbesola\Desktop\microservice version two\src\bin\Debug\Grpc.Net.Client.dll
+C:\Users\Kehinde Aregbesola\Desktop\microservice version two\src\bin\Debug\Grpc.Net.Common.dll
+C:\Users\Kehinde Aregbesola\Desktop\microservice version two\src\bin\Debug\Discount.Grpc.pdb
