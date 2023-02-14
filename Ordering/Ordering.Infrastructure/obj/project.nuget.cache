@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "GKK4dQMpTomYLZiWZwzBGwKqsUEeLZ9PSDQ0ok6i1tiTAbyAKwSNh/vcM2A6aYT8wlGVrXA3aeNCft8ekUF2/w==",
+  "dgSpecHash": "5Xa9Lpvaeb4my/3ofw5pQHwLmG6TVFwk7lrv8qmnJxJK7ChsZyhbjX7ruowae0TJrZNNaULUci1I10O+SkIxqA==",
   "success": true,
   "projectFilePath": "C:\\Users\\Kehinde Aregbesola\\Desktop\\microservice version two\\src\\Ordering\\Ordering.Infrastructure\\Ordering.Infrastructure.csproj",
   "expectedPackageFiles": [
@@ -37,6 +37,9 @@
     "C:\\Users\\Kehinde Aregbesola\\.nuget\\packages\\microsoft.netcore.platforms\\3.1.0\\microsoft.netcore.platforms.3.1.0.nupkg.sha512",
     "C:\\Users\\Kehinde Aregbesola\\.nuget\\packages\\microsoft.win32.registry\\4.7.0\\microsoft.win32.registry.4.7.0.nupkg.sha512",
     "C:\\Users\\Kehinde Aregbesola\\.nuget\\packages\\microsoft.win32.systemevents\\4.7.0\\microsoft.win32.systemevents.4.7.0.nupkg.sha512",
+    "C:\\Users\\Kehinde Aregbesola\\.nuget\\packages\\newtonsoft.json\\13.0.1\\newtonsoft.json.13.0.1.nupkg.sha512",
+    "C:\\Users\\Kehinde Aregbesola\\.nuget\\packages\\sendgrid\\9.28.1\\sendgrid.9.28.1.nupkg.sha512",
+    "C:\\Users\\Kehinde Aregbesola\\.nuget\\packages\\starkbank-ecdsa\\1.3.3\\starkbank-ecdsa.1.3.3.nupkg.sha512",
     "C:\\Users\\Kehinde Aregbesola\\.nuget\\packages\\system.collections.immutable\\6.0.0\\system.collections.immutable.6.0.0.nupkg.sha512",
     "C:\\Users\\Kehinde Aregbesola\\.nuget\\packages\\system.configuration.configurationmanager\\4.7.0\\system.configuration.configurationmanager.4.7.0.nupkg.sha512",
     "C:\\Users\\Kehinde Aregbesola\\.nuget\\packages\\system.diagnostics.diagnosticsource\\6.0.0\\system.diagnostics.diagnosticsource.6.0.0.nupkg.sha512",
