@@ -8,9 +8,12 @@ services:
     depends_on:
       basketdb:
         condition: service_started
+      rabbitmq:
+        condition: service_started
     environment:
       ASPNETCORE_ENVIRONMENT: Development
       CacheSettings:ConnectionString: basketdb:6379
+      EventBusSettings:HostAddress: amqp://guest:guest@rabbitmq:5672
       GrpcSettings:DiscountUrl: http://discount.grpc
     image: basketapi
     networks:
@@ -143,7 +146,7 @@ services:
     ports:
     - mode: ingress
       target: 80
-      published: "8000"
+      published: "8005"
       protocol: tcp
     volumes:
     - type: bind
@@ -178,6 +181,56 @@ services:
       source: postgres_data
       target: /var/lib/postgresql/data
       volume: {}
+  orderdb:
+    container_name: orderdb
+    environment:
+      ACCEPT_EULA: "Y"
+      SA_PASSWORD: SwN12345678
+    image: mcr.microsoft.com/mssql/server:2017-latest
+    networks:
+      default: null
+    ports:
+    - mode: ingress
+      target: 1433
+      published: "1433"
+      protocol: tcp
+    restart: always
+  ordering.api:
+    build:
+      context: C:\Users\Kehinde Aregbesola\Desktop\microservice version two\src
+      dockerfile: Ordering/Ordering.API/Dockerfile
+    container_name: ordering.api
+    depends_on:
+      orderdb:
+        condition: service_started
+      rabbitmq:
+        condition: service_started
+    environment:
+      ASPNETCORE_ENVIRONMENT: Development
+      ConnectionStrings:OrderingConnectionString: Server=orderdb;Database=OrderDb;User
+        Id=sa;Password=SwN12345678
+      EventBusSettings:HostAddress: amqp://guest:guest@rabbitmq:5672
+    image: orderingapi
+    networks:
+      default: null
+    ports:
+    - mode: ingress
+      target: 80
+      published: "8006"
+      protocol: tcp
+    volumes:
+    - type: bind
+      source: C:\Users\Kehinde Aregbesola\AppData\Roaming/Microsoft/UserSecrets
+      target: /root/.microsoft/usersecrets
+      read_only: true
+      bind:
+        create_host_path: true
+    - type: bind
+      source: C:\Users\Kehinde Aregbesola\AppData\Roaming/ASP.NET/Https
+      target: /root/.aspnet/https
+      read_only: true
+      bind:
+        create_host_path: true
   pgadmin:
     container_name: pgadmin
     environment:
@@ -222,6 +275,21 @@ services:
       source: portainer_data
       target: /data
       volume: {}
+  rabbitmq:
+    container_name: rabbitmq
+    image: rabbitmq:3-management-alpine
+    networks:
+      default: null
+    ports:
+    - mode: ingress
+      target: 5672
+      published: "5672"
+      protocol: tcp
+    - mode: ingress
+      target: 15672
+      published: "15672"
+      protocol: tcp
+    restart: always
 networks:
   default:
     name: dockercompose5184805688856964894_default

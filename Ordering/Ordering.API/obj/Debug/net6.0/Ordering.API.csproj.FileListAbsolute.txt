@@ -81,3 +81,12 @@ C:\Users\Kehinde Aregbesola\Desktop\microservice version two\src\Ordering\Orderi
 C:\Users\Kehinde Aregbesola\Desktop\microservice version two\src\Ordering\Ordering.API\bin\Debug\net6.0\runtimes\win\lib\netcoreapp3.0\System.Windows.Extensions.dll
 C:\Users\Kehinde Aregbesola\Desktop\microservice version two\src\Ordering\Ordering.API\bin\Debug\net6.0\Humanizer.dll
 C:\Users\Kehinde Aregbesola\Desktop\microservice version two\src\Ordering\Ordering.API\bin\Debug\net6.0\Microsoft.EntityFrameworkCore.Design.dll
+C:\Users\Kehinde Aregbesola\Desktop\microservice version two\src\Ordering\Ordering.API\bin\Debug\net6.0\MassTransit.dll
+C:\Users\Kehinde Aregbesola\Desktop\microservice version two\src\Ordering\Ordering.API\bin\Debug\net6.0\MassTransit.Abstractions.dll
+C:\Users\Kehinde Aregbesola\Desktop\microservice version two\src\Ordering\Ordering.API\bin\Debug\net6.0\MassTransit.AspNetCoreIntegration.dll
+C:\Users\Kehinde Aregbesola\Desktop\microservice version two\src\Ordering\Ordering.API\bin\Debug\net6.0\MassTransit.ExtensionsDependencyInjectionIntegration.dll
+C:\Users\Kehinde Aregbesola\Desktop\microservice version two\src\Ordering\Ordering.API\bin\Debug\net6.0\MassTransit.RabbitMqTransport.dll
+C:\Users\Kehinde Aregbesola\Desktop\microservice version two\src\Ordering\Ordering.API\bin\Debug\net6.0\RabbitMQ.Client.dll
+C:\Users\Kehinde Aregbesola\Desktop\microservice version two\src\Ordering\Ordering.API\bin\Debug\net6.0\System.Text.Json.dll
+C:\Users\Kehinde Aregbesola\Desktop\microservice version two\src\Ordering\Ordering.API\bin\Debug\net6.0\EventBus.Messages.dll
+C:\Users\Kehinde Aregbesola\Desktop\microservice version two\src\Ordering\Ordering.API\bin\Debug\net6.0\EventBus.Messages.pdb

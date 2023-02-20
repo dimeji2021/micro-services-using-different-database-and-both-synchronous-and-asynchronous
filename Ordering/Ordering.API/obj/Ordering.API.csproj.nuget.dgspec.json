@@ -4,6 +4,62 @@
     "C:\\Users\\Kehinde Aregbesola\\Desktop\\microservice version two\\src\\Ordering\\Ordering.API\\Ordering.API.csproj": {}
   },
   "projects": {
+    "C:\\Users\\Kehinde Aregbesola\\Desktop\\microservice version two\\src\\BuildingBlocks\\EventBus.Messages\\EventBus.Messages.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\Kehinde Aregbesola\\Desktop\\microservice version two\\src\\BuildingBlocks\\EventBus.Messages\\EventBus.Messages.csproj",
+        "projectName": "EventBus.Messages",
+        "projectPath": "C:\\Users\\Kehinde Aregbesola\\Desktop\\microservice version two\\src\\BuildingBlocks\\EventBus.Messages\\EventBus.Messages.csproj",
+        "packagesPath": "C:\\Users\\Kehinde Aregbesola\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Kehinde Aregbesola\\Desktop\\microservice version two\\src\\BuildingBlocks\\EventBus.Messages\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\Kehinde Aregbesola\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net6.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "C:\\Users\\Kehinde Aregbesola\\Desktop\\microservice-project\\packages": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net6.0": {
+            "targetAlias": "net6.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net6.0": {
+          "targetAlias": "net6.0",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.101\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
     "C:\\Users\\Kehinde Aregbesola\\Desktop\\microservice version two\\src\\Ordering\\Ordering.API\\Ordering.API.csproj": {
       "version": "1.0.0",
       "restore": {
@@ -29,6 +85,9 @@
           "net6.0": {
             "targetAlias": "net6.0",
             "projectReferences": {
+              "C:\\Users\\Kehinde Aregbesola\\Desktop\\microservice version two\\src\\BuildingBlocks\\EventBus.Messages\\EventBus.Messages.csproj": {
+                "projectPath": "C:\\Users\\Kehinde Aregbesola\\Desktop\\microservice version two\\src\\BuildingBlocks\\EventBus.Messages\\EventBus.Messages.csproj"
+              },
               "C:\\Users\\Kehinde Aregbesola\\Desktop\\microservice version two\\src\\Ordering\\Ordering.Application\\Ordering.Application.csproj": {
                 "projectPath": "C:\\Users\\Kehinde Aregbesola\\Desktop\\microservice version two\\src\\Ordering\\Ordering.Application\\Ordering.Application.csproj"
               },
@@ -48,6 +107,18 @@
         "net6.0": {
           "targetAlias": "net6.0",
           "dependencies": {
+            "MassTransit": {
+              "target": "Package",
+              "version": "[8.0.12, )"
+            },
+            "MassTransit.AspNetCore": {
+              "target": "Package",
+              "version": "[7.3.1, )"
+            },
+            "MassTransit.RabbitMQ": {
+              "target": "Package",
+              "version": "[8.0.12, )"
+            },
             "Microsoft.EntityFrameworkCore.Tools": {
               "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
               "suppressParent": "All",
