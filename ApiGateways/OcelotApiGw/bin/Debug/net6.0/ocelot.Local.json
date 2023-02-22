@@ -1,0 +1,174 @@
+{
+  "Routes": [
+    //Catalog API
+    {
+      "SwaggerKey": "catalog",
+      "DownstreamPathTemplate": "/api/v1/Catalog",
+      "DownstreamScheme": "http",
+      "DownstreamHostAndPorts": [
+        {
+          "Host": "localhost",
+          "Port": "8000"
+        }
+      ],
+      "UpstreamPathTemplate": "/Catalog",
+      "UpstreamHttpMethod": [ "GET", "POST", "PUT" ],
+      "FileCacheOptions": { "TtlSeconds": 30 }
+    },
+    {
+      "DownstreamPathTemplate": "/api/v1/Catalog/{id}",
+      "DownstreamScheme": "http",
+      "DownstreamHostAndPorts": [
+        {
+          "Host": "localhost",
+          "Port": "8000"
+        }
+      ],
+      "UpstreamPathTemplate": "/Catalog/{id}",
+      "UpstreamHttpMethod": [ "GET", "DELETE" ]
+    },
+    {
+      "DownstreamPathTemplate": "/api/v1/Catalog/GetProductByCategory/{category}",
+      "DownstreamScheme": "http",
+      "DownstreamHostAndPorts": [
+        {
+          "Host": "localhost",
+          "Port": "8000"
+        }
+      ],
+      "UpstreamPathTemplate": "/Catalog/GetProductByCategory/{category}",
+      "UpstreamHttpMethod": [ "GET" ]
+    },
+    //Basket API
+    {
+      "SwaggerKey": "basket",
+      "DownstreamPathTemplate": "/api/v1/Basket/{userName}",
+      "DownstreamScheme": "http",
+      "DownstreamHostAndPorts": [
+        {
+          "Host": "localhost",
+          "Port": "8002"
+        }
+      ],
+      "UpstreamPathTemplate": "/Basket/{userName}",
+      "UpstreamHttpMethod": [ "GET", "DELETE" ]
+    },
+    {
+      "DownstreamPathTemplate": "/api/v1/Basket",
+      "DownstreamScheme": "http",
+      "DownstreamHostAndPorts": [
+        {
+          "Host": "localhost",
+          "Port": "8002"
+        }
+      ],
+      "UpstreamPathTemplate": "/Basket",
+      "UpstreamHttpMethod": [ "POST" ]
+    },
+    {
+      "DownstreamPathTemplate": "/api/v1/Basket/Checkout",
+      "DownstreamScheme": "http",
+      "DownstreamHostAndPorts": [
+        {
+          "Host": "localhost",
+          "Port": "8002"
+        }
+      ],
+      "UpstreamPathTemplate": "/Basket/Checkout",
+      "UpstreamHttpMethod": [ "POST" ],
+      "RateLimitOptions": {
+        "ClientWhitelist": [],
+        "EnableRateLimiting": true,
+        "Period": "3s",
+        "PeriodTimespan": 1,
+        "Limit": 1
+      }
+    },
+    //Discount API
+    {
+      "SwaggerKey": "discount",
+      "DownstreamPathTemplate": "/api/v1/Discount/{productName}",
+      "DownstreamScheme": "http",
+      "DownstreamHostAndPorts": [
+        {
+          "Host": "localhost",
+          "Port": "8003"
+        }
+      ],
+      "UpstreamPathTemplate": "/Discount/{productName}",
+      "UpstreamHttpMethod": [ "GET", "DELETE" ]
+    },
+    {
+      "DownstreamPathTemplate": "/api/v1/Discount",
+      "DownstreamScheme": "http",
+      "DownstreamHostAndPorts": [
+        {
+          "Host": "localhost",
+          "Port": "8003"
+        }
+      ],
+      "UpstreamPathTemplate": "/Discount",
+      "UpstreamHttpMethod": [ "PUT", "POST" ]
+    },
+    //Order API
+    {
+      "SwaggerKey": "ordering",
+      "DownstreamPathTemplate": "/api/v1/Order/{userName}",
+      "DownstreamScheme": "http",
+      "DownstreamHostAndPorts": [
+        {
+          "Host": "localhost",
+          "Port": "8006"
+        }
+      ],
+      "UpstreamPathTemplate": "/Order/{userName}",
+      "UpstreamHttpMethod": [ "GET" ]
+    }
+  ],
+  // Swagger Endpoint
+  "SwaggerEndPoints": [
+    {
+      "Key": "catalog",
+      "Config": [
+        {
+          "Name": "Catalog Service",
+          "Version": "v1",
+          "Url": "https://localhost:7108;http://localhost:5156/v1/swagger.json"
+        }
+      ]
+    },
+    {
+      "Key": "basket",
+      "Config": [
+        {
+          "Name": "Basket Service",
+          "Version": "v1",
+          "Url": "https://localhost:7140;http://localhost:5117/v1/swagger.json"
+        }
+      ]
+    },
+    {
+      "Key": "discount",
+      "Config": [
+        {
+          "Name": "Discount Service",
+          "Version": "v1",
+          "Url": "https://localhost:7114;http://localhost:5214/v1/swagger.json"
+        }
+      ]
+    },
+    {
+      "Key": "ordering",
+      "Config": [
+        {
+          "Name": "Ordering Service",
+          "Version": "v1",
+          "Url": "https://localhost:7020;http://localhost:5103/v1/swagger.json"
+        }
+      ]
+    }
+  ],
+  "GlobalConfiguration": {
+    "BaseUrl": "http://localhost:5296"
+  }
+}
